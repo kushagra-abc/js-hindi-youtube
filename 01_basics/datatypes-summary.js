@@ -49,3 +49,29 @@ console.log(typeof heros);
 //        Arrays  =>  object
 //        Function  =>  function
 //        Object  =>  object
+
+
+
+
+//***********************
+
+// Stack (Primitive), copy bnta ; Heap (Non-Primitive), reference milta
+
+let myYTname = "hit.com"
+
+let anotherName = myYTname
+anotherName = "chaicode"
+
+console.log(myYTname);
+console.log(anotherName);
+
+let userOne={
+    email:"user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "hit@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
